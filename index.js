@@ -38,3 +38,5 @@ class Fish {
   }
 }
 
+var caldwell = new Dog("caldwell", "toy poodle", "4 months");
+
