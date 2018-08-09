@@ -1,42 +1,37 @@
 'use strict';
-class Dog {
-  constructor(name,breed,age){
+function Dog (name,breed,age){
     this.name = name;
     this.breed = breed;
     this.age = age;
   }
-}
 
-class Cat {
-    constructor(name,breed,age){
+
+function Cat (name,breed,age){
     this.name = name;
     this.breed = breed;
     this.age = age;
   }
-}
 
-class Ferret {
-    constructor(name,age,foodRequirements){
+
+function Ferret (name,age,foodRequirements){
     this.name = name;
     this.age = age;
     this.foodRequirements = foodRequirements;
   }
-}
 
-class Bird {
-    constructor(name,breed){
+
+function Bird (name,breed){
     this.name = name;
     this.breed = breed;
   }
-}
 
-class Fish {
-    constructor(name,species,waterConditions){
+
+function Fish (name,species,waterConditions){
     this.name = name;
     this.species = species;
     this.waterConditions = waterConditions;
   }
-}
+
 
       // var caldwell = new Dog("caldwell", "toy poodle", "4 months");
       // var puff = new Cat("Professor Puff", "Maine Coon", "6 years");
