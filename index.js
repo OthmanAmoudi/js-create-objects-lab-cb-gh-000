@@ -16,23 +16,22 @@ class Cat {
 }
 
 class Ferret {
-    constructor(name,breed,age){
+    constructor(name,age,foodRequirements){
     this.name = name;
-    this.breed = breed;
     this.age = age;
+    this.foodRequirements = foodRequirements;
   }
 }
 
-class Cat {
-    constructor(name,breed,age){
+class Bird {
+    constructor(name,breed){
     this.name = name;
     this.breed = breed;
-    this.age = age;
   }
 }
 
-class Cat {
-    constructor(name,breed,age){
+class Fish {
+    constructor(name,species,age){
     this.name = name;
     this.breed = breed;
     this.age = age;
