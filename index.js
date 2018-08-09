@@ -31,9 +31,9 @@ class Bird {
 }
 
 class Fish {
-    constructor(name,species,age){
+    constructor(name,species,waterConditions){
     this.name = name;
     this.species = species;
-    this.age = age;
+    this.waterConditions = waterConditions;
   }
 }
