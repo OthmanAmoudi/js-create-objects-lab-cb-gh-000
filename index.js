@@ -33,7 +33,7 @@ class Bird {
 class Fish {
     constructor(name,species,age){
     this.name = name;
-    this.breed = breed;
+    this.species = species;
     this.age = age;
   }
 }
